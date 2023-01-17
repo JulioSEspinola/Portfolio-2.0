@@ -13,7 +13,7 @@
     justify-content: center;
     align-items: center;
     text-align: center;
-    background-color: #21325e;
+    background-color: #212329;
     color: #f0f0f0;
   }
   
@@ -41,6 +41,7 @@
     justify-content: center;
     flex-direction: column;
     align-items: center;
+    background-color: white;
   }
   
   .skills h1 {
@@ -56,7 +57,7 @@
     font-size: 20px;
   }
   
-  @media only screen and (max-width: 600px) {
+  @media only screen and (max-width: 500px) {
     .about h2 {
       font-size: 40px;
     }
@@ -78,3 +79,14 @@
       font-size: 30px;
     }
   }
+
+ .about-me{
+  font-size: 30px;
+  width: 75%;
+  padding: 30px;
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+ }
+
+.skills-h{
+  padding: -20px;
+}
