@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/Portfolio-2.0/static/css/main.536b428b.css",
-    "main.js": "/Portfolio-2.0/static/js/main.1f3b667d.js",
-    "static/media/crypto.png": "/Portfolio-2.0/static/media/crypto.ed904d8362d5376ef0ec.png",
-    "static/media/uBelong.png": "/Portfolio-2.0/static/media/uBelong.54e847c1d14a38f11804.png",
-    "static/media/shopping.png": "/Portfolio-2.0/static/media/shopping.fafb82f965dd6a7db293.png",
-    "static/media/calculator.png": "/Portfolio-2.0/static/media/calculator.caada41b76076eadf9df.png",
-    "index.html": "/Portfolio-2.0/index.html",
-    "main.536b428b.css.map": "/Portfolio-2.0/static/css/main.536b428b.css.map",
-    "main.1f3b667d.js.map": "/Portfolio-2.0/static/js/main.1f3b667d.js.map"
+    "main.css": "/Portfolio-2.0/portfolio/static/css/main.536b428b.css",
+    "main.js": "/Portfolio-2.0/portfolio/static/js/main.78acfb67.js",
+    "static/media/crypto.png": "/Portfolio-2.0/portfolio/static/media/crypto.ed904d8362d5376ef0ec.png",
+    "static/media/uBelong.png": "/Portfolio-2.0/portfolio/static/media/uBelong.54e847c1d14a38f11804.png",
+    "static/media/shopping.png": "/Portfolio-2.0/portfolio/static/media/shopping.fafb82f965dd6a7db293.png",
+    "static/media/calculator.png": "/Portfolio-2.0/portfolio/static/media/calculator.caada41b76076eadf9df.png",
+    "index.html": "/Portfolio-2.0/portfolio/index.html",
+    "main.536b428b.css.map": "/Portfolio-2.0/portfolio/static/css/main.536b428b.css.map",
+    "main.78acfb67.js.map": "/Portfolio-2.0/portfolio/static/js/main.78acfb67.js.map"
   },
   "entrypoints": [
     "static/css/main.536b428b.css",
-    "static/js/main.1f3b667d.js"
+    "static/js/main.78acfb67.js"
   ]
 }
