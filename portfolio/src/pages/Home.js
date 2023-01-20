@@ -12,7 +12,7 @@ function home() {
     <div className='home'>      
       <div className='about'>
 
-        <h2>Hi, My name is Juulio</h2>
+        <h2>Hi, My name is Julio Espinola</h2>
 
         <div className='prompt'>
           <p> Passioante developer</p>
