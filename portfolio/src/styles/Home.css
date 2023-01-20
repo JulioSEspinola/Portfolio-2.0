@@ -98,3 +98,9 @@
   display: flex;
 
 }
+
+.prompt{
+  padding: 50px;
+ 
+  /* height: calc(100vh - 100px); */
+}
