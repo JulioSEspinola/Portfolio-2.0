@@ -5,24 +5,31 @@
     justify-content: center;
     align-items: center;
     flex-direction: column;
+    box-shadow: rgba(252, 227, 4, 0.2) 0px -10px 10px 0px;
   }
   
   .project h1 {
     margin-top: 50px;
-    color: #3e497a;
+    color: #f1f1f1;
     font-size: 35px;
+    display: flex;
+    
+
   }
   .project img {
     width: 700px;
     border-radius: 10px;
+    box-shadow: 0px 3px 15px rgba(252, 227, 4, 0.2) ;
   }
   
   .project p {
-    font-size: 40px;
-    color: #3e497a;
+    font-size: 30px;
+    color: #f1f1f1;
+    margin-top: 50px;
+    width: 75%;
   }
   
   .project svg {
     font-size: 60px;
-    color: #3e497a;
+    color: #e9d35b;
   }

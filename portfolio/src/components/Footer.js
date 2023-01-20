@@ -16,7 +16,7 @@ export default function Footer() {
         <LinkedInIcon/>
       </IconButton>
       </div>
-      <p>&copy; 2023 Julio Espinola.com </p>
+      <p>&copy; 2023 Julio Espinola </p>
     </div>
   )
 }

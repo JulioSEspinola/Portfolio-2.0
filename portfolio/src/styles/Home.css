@@ -2,7 +2,8 @@
     width: 100%;
     align-items: center;
     font-family: "Arial", sans-serif;
-    color: #3e497a;
+    color: #f0f0f0;
+    box-shadow: rgba(252, 227, 4, 0.2) 0px -10px 10px 0px;
   }
   
   .about {
@@ -41,11 +42,12 @@
     justify-content: center;
     flex-direction: column;
     align-items: center;
-    background-color: white;
+    background-color: #212329;
+    
   }
   
   .skills h1 {
-    color: #3e497a;
+    color: #e9d35b;
   }
   
   .skills .list {
@@ -84,7 +86,7 @@
   font-size: 30px;
   width: 75%;
   padding: 30px;
-  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+  box-shadow: rgba(252, 227, 4, 0.2) 0px 2px 20px 0px;
  }
 
 .skills-h{

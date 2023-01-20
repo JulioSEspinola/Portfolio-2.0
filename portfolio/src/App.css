@@ -1,10 +1,10 @@
 .App{
     width: 100%;
-    height: auto;
+    height:auto;
     display: flex;
     flex-direction: column;
     font-family: Arial, Helvetica, sans-serif;
-    background-color: #ffffff;
+    background-color: #212329;
 
     text-align: center;
 }

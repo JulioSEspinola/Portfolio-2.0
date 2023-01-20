@@ -43,18 +43,22 @@ function home() {
         </p>
 
         <h1 className='skills-h'>Skills</h1>
-
         <ol className='list'>
           <li className='item'>
             <h2> Front End</h2>
             <span>
-              hejfn,d,23,e34,e,3ed,3edf,we.dfwefd,
+              HTML | CSS | BootStap | JavaScript | React
             </span>
           </li>
 
           <li className='item'>
             <h2> Back End</h2>
-            <span>wedwed2wedwedwed,wed.,we.d,we.,d.we,d.,d.f,.d,</span>
+            <span>Java | Python | MySQL</span>
+          </li>
+
+          <li className='item'>
+            <h2> Softwares & Tools</h2>
+            <span>Git | GitHub | VS Code | IntelliJ | Heroku</span>
           </li>
         </ol>
       </div>

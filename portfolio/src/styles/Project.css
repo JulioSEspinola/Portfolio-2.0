@@ -5,10 +5,12 @@
     justify-content: center;
     align-items: center;
     flex-direction: column;
+    box-shadow: rgba(252, 227, 4, 0.2) 0px -10px 10px 0px;
+    color:#f0f0f0;
   }
   .projects .projectTitle {
     text-align: center;
-    color: #3e497a;
+    color: #f0f0f0;
     font-size: 60px;
     font-weight: bolder;
   }
@@ -28,7 +30,7 @@
     width: 300px;
     height: 300px;
     margin: 40px;
-    box-shadow: 0px 3px 15px rgba(0, 0, 0, 0.2);
+    box-shadow: 0px 3px 15px rgba(252, 227, 4, 0.2) ;
     text-align: center;
   }
   .projectItem:hover {
@@ -71,4 +73,8 @@
       width: 300px;
       height: 300px;
     }
+  }
+
+  .projects-tittle{
+    color: #e9d35b;
   }
