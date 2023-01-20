@@ -92,3 +92,9 @@
 .skills-h{
   padding: -20px;
 }
+
+.prompt p{
+  width: 100%;
+  display: flex;
+
+}

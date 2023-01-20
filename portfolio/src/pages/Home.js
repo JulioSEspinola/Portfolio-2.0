@@ -15,7 +15,6 @@ function home() {
         <h2>Hi, My name is Julio Espinola</h2>
 
         <div className='prompt'>
-          <p> Passioante developer</p>
       
           <IconButton href="https://github.com/JulioSEspinola" target="_blank">
             <GithubIcon />
