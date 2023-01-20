@@ -1,4 +1,6 @@
 import Project1 from '../assets/crypto.png';
+import Project2 from '../assets/uBelong.png';
+import Project4 from '../assets/calculator.png';
 
 export const ProjectList = [
     {
@@ -9,20 +11,20 @@ export const ProjectList = [
     },
     {
         name: "uBeLong",
-        // image: Project1,
-        description: "uBelong is a web application developed during my internship at ThoughtWorks with the purpose to keep historically marginalized communites aware of their rights and prevent family separation. uBelong provides features that are community driven, has an accessible design, a central location of resources and legal support."
+        image: Project2,
+        description: "uBelong is a web application developed during my internship at ThoughtWorks with the purpose to keep historically marginalized communites aware of their rights and prevent family separation. uBelong provides features that are community driven, has an accessible design, a central location of resources and legal support.",
+        link:"https://github.com/JulioSEspinola/tw-na-internship-project"
     },
     {
         name: "Distance Notifier",
-        // image: Project1
+        // image:
+        description: "The Distance Notifier program helps to send an email to people indicating your distance and how long it would take for you to get to your destination. The program was built in Python and uses the Google Maps API as well as the Distance Matrix API to find the distance each destination.",
+        link:"https://github.com/JulioSEspinola/Distance-Notifier"
     },
     {
         name: "Advanced Calculator",
-        // image: Project1
+        image: Project4,
+        description: "The advanced calculator is a class based project for my CS480 Advanced Software Engineering class",
+        link:"https://github.com/JulioSEspinola/Calculator_Project"
     },
-    {
-        name: "Python Snake Game",
-        // image: Project1
-    }
-
 ]
