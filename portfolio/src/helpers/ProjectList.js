@@ -1,6 +1,8 @@
 import Project1 from '../assets/crypto.png';
 import Project2 from '../assets/uBelong.png';
+// import Project3 from '../assets/imageNotAvailable.png';
 import Project4 from '../assets/calculator.png';
+import Project5 from '../assets/shopping.png';
 
 export const ProjectList = [
     {
@@ -17,7 +19,7 @@ export const ProjectList = [
     },
     {
         name: "Distance Notifier",
-        // image:
+        // image: 
         description: "The Distance Notifier program helps to send an email to people indicating your distance and how long it would take for you to get to your destination. The program was built in Python and uses the Google Maps API as well as the Distance Matrix API to find the distance each destination.",
         link:"https://github.com/JulioSEspinola/Distance-Notifier"
     },
@@ -26,5 +28,12 @@ export const ProjectList = [
         image: Project4,
         description: "The advanced calculator is a class based project for my CS480 Advanced Software Engineering class",
         link:"https://github.com/JulioSEspinola/Calculator_Project"
+    },
+
+    {
+        name: "ShoppingList.github.io",
+        image: Project5,
+        description: "The shopping List project is a class group project for my CS446 User interface Design. The purpose of the software is to allow users to find near by stores around their area by entering their zip code.",
+        link:"https://github.com/JulioSEspinola/ShoppingList.github.io"
     },
 ]
