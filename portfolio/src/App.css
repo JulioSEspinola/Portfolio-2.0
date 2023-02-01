@@ -9,10 +9,9 @@
     text-align: center;
 }
 
-/*#212329*/
-/* html{
-    background-color: red;
-} */
+html{
+    background-color: #212329 ;
+}
 
 body{
     padding:0;
