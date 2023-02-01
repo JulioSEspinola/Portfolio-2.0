@@ -23,6 +23,8 @@ function App() {
           <Route path="/experience" element = {<Experience/>}/>
         </Routes>
       </Router>
+      
+      <Home/>
       <Footer/>
     </div>
   );
