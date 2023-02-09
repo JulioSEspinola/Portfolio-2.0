@@ -1,6 +1,5 @@
 import Project1 from '../assets/crypto.png';
 import Project2 from '../assets/uBelong.png';
-// import Project3 from '../assets/imageNotAvailable.png';
 import Project4 from '../assets/calculator.png';
 import Project5 from '../assets/shopping.png';
 

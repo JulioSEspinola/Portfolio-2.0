@@ -3,7 +3,7 @@ import LinkedInIcon from '@mui/icons-material/LinkedIn';
 import GithubIcon from '@mui/icons-material/GitHub';
 import { IconButton } from '@mui/material';
 import EmailIcon from '@mui/icons-material/Email';
-import Link from '@mui/icons-material/Link';
+// import Link from '@mui/icons-material/Link';
 import '../styles/Home.css'
 
 function home() {
