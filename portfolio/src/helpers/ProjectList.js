@@ -2,6 +2,7 @@ import Project1 from '../assets/crypto.png';
 import Project2 from '../assets/uBelong.png';
 import Project4 from '../assets/calculator.png';
 import Project5 from '../assets/shopping.png';
+import Project6 from '../assets/ReceiptReader.png'
 
 export const ProjectList = [
     {
@@ -30,9 +31,15 @@ export const ProjectList = [
     },
 
     {
-        name: "ShoppingList.github.io",
+        name: "ShoppingList",
         image: Project5,
         description: "The shopping List project is a class group project for my CS446 User interface Design. The purpose of the software is to allow users to find near by stores around their area by entering their zip code.",
         link:"https://github.com/JulioSEspinola/ShoppingList.github.io"
+    },
+    {
+        name: "Receipt Reader",
+        image: Project6,
+        description: "The Reciept Reader project is a project for the CS 481 Capstone class at Central Washington University. The purpose of this project is to allow users to keep track of their expenses by gathering important information from the reciepts of the stores that they shop from.",
+        link:"https://github.com/Reciept-reader/reciept-reader"
     },
 ]

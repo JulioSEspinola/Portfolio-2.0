@@ -6,13 +6,16 @@ import EmailIcon from '@mui/icons-material/Email';
 // import Link from '@mui/icons-material/Link';
 import '../styles/Home.css'
 
+
 function home() {
   return (
 
-    <div className='home'>      
+    <div className='home'>
+   
+     
       <div className='about'>
 
-        <h2 >Hi, My name is Julio Espinola</h2>
+        <h2 >Hi!, I'm Julio Espinola</h2>
 
         <div className='prompt'>
       
