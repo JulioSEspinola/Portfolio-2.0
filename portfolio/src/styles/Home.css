@@ -1,9 +1,10 @@
 .home {
     width: 100%;
+    height: auto;
     align-items: center;
     font-family: "Arial", sans-serif;
     color: #f0f0f0;
-    box-shadow: rgba(252, 227, 4, 0.2) 0px -10px 10px 0px;
+    /* box-shadow: rgba(252, 227, 4, 0.2) 0px -10px 10px 0px; */
   }
   
   .about {
@@ -14,7 +15,6 @@
     justify-content: center;
     align-items: center;
     text-align: center;
-    background-color: #212329;
     color: #f0f0f0;
   }
   

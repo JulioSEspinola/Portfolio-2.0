@@ -14,11 +14,9 @@ function ProjectDisplay() {
       <h1> {project.name}</h1>
       <img src={project.image} />
       <p>{project.description}</p>
-
       <IconButton href={project.link} target="_blank">
         <GithubIcon />
       </IconButton>
-
     </div>
   );
 }

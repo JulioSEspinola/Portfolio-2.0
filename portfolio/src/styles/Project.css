@@ -5,7 +5,7 @@
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    box-shadow: rgba(252, 227, 4, 0.2) 0px -10px 10px 0px;
+    /* box-shadow: rgba(252, 227, 4, 0.2) 0px -10px 10px 0px; */
     color:#f0f0f0;
   }
   .projects .projectTitle {
