@@ -31,14 +31,14 @@
   }
 }
   
-  .project p {
-    font-size: 30px;
-    color: #f1f1f1;
-    margin-top: 50px;
-    width: 75%;
-  }
+.project p {
+  font-size: 30px;
+  color: #f1f1f1;
+  margin-top: 50px;
+  width: 75%;
+}
   
-  .project svg {
+.project svg {
     font-size: 60px;
     color: #e9d35b;
   }
