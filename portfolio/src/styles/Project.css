@@ -30,6 +30,7 @@
     width: 300px;
     height: 300px;
     margin: 40px;
+    padding: 10px;
     box-shadow: 0px 3px 15px rgba(252, 227, 4, 0.2) ;
     text-align: center;
   }
