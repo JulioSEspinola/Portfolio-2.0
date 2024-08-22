@@ -10,7 +10,7 @@ function home() {
     <>
     <div className='home'>
       <div className='about'>
-        <h2 >Hi!, I'm Julio</h2>
+        <h2 >Hi! I'm Julio</h2>
         <div className='prompt'>
           <IconButton href="https://github.com/JulioSEspinola" target="_blank">
             <GithubIcon />

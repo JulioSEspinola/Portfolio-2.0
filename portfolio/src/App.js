@@ -20,8 +20,8 @@ function App() {
           <Route path="/project/:id" element = {<ProjectDisplay/>}/>
           <Route path="/experience" element = {<Experience/>}/>
         </Routes>
+        <Footer/>
       </Router>
-      <Footer/>
     </div>
   );
 }
