@@ -36,7 +36,7 @@ function Experience() {
          </ul>
         </VerticalTimelineElement>
 
-        <VerticalTimelineElement
+        {/* <VerticalTimelineElement
           className="vertical-timeline-element--work"
           dateClassName={ "date-color"}
           date='April 5th, 2021 - April 23rd, 2021'
@@ -61,7 +61,7 @@ function Experience() {
               Contributed to the development of the software design requirements
             </li>
           </ul>
-        </VerticalTimelineElement>
+        </VerticalTimelineElement> */}
         <VerticalTimelineElement
           className="vertical-timeline-element--work"
           dateClassName={ "date-color"}
