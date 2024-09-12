@@ -18,4 +18,11 @@ export const ProjectList = [
         description: "uBelong is a web application developed during my internship at ThoughtWorks with the purpose to keep historically marginalized communites aware of their rights and prevent family separation. uBelong provides features that are community driven, has an accessible design, a central location of resources and legal support.",
         link:"https://github.com/JulioSEspinola/tw-na-internship-project"
     },
+    {
+        id:3,
+        name: "Receipt Reader",
+        image: Project3,
+        description: "The Reciept Reader project is a project for the CS 481 Capstone class at Central Washington University. The purpose of this project is to allow users to keep track of their expenses by gathering important information from the reciepts of the stores that they shop from.",
+        link:"https://github.com/Reciept-reader/reciept-reader"
+    },
 ]
