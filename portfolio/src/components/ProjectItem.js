@@ -19,7 +19,7 @@ function ProjectItem({ image, name, id }) {
         transform: 'scale(1.05)',
         boxShadow: '0px 3px 15px rgba(252, 227, 4, 0.447) ',
       },
-    }}onClick={() => navigate("/project/" + id)}>
+    }} onClick={() => navigate("/project/" + id)}>
       <CardActionArea>
         <CardMedia
           component="img"
