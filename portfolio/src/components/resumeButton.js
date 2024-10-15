@@ -18,12 +18,8 @@ function ResumeButton() {
 
   return (
     <Button
-      style={{marginRight:20, backgroundColor: 'rgba(252, 227, 4, 0.447)', color: 'white',
-      transition: 'transform 0.3s, box-shadow 0.3s',
-      '&:hover': {
-        transform: 'scale(1.05)',
-        boxShadow: '0px 3px 15px rgba(252, 227, 4, 0.447) ',
-      }}}
+      style={{ backgroundColor: '#e9d35b', color: 'black',
+      transition: 'transform 0.3s, box-shadow 0.3s'}}
       variant="contained"
       color="primary"
       onClick={handleDownload}

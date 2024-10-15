@@ -2,7 +2,6 @@ import React, { useEffect, useState } from "react";
 import { Link, useLocation } from "react-router-dom";
 import "../styles/Navbar.css";
 import ReorderIcon from '@mui/icons-material/Reorder';
-import ResumeButton from '../components/resumeButton'
 
 const isActive = false;
 
@@ -29,7 +28,6 @@ function Navbar() {
         <Link to="/"> Home </Link>
         <Link to="/projects"> Projects </Link>
         {isActive ? (<Link to="/experience"> Experience </Link>) : ("") }
-        <div style={{marginLeft: "auto"}} ><ResumeButton></ResumeButton></div>
       </div>
     </div>
   );

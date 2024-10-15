@@ -4,6 +4,7 @@ import GithubIcon from '@mui/icons-material/GitHub';
 import { IconButton } from '@mui/material';
 import EmailIcon from '@mui/icons-material/Email';
 import About from '../pages/About'
+import ResumeButton from '../components/resumeButton'
 
 function home() {
   return (
@@ -21,6 +22,7 @@ function home() {
           <IconButton href="mailto: espinolaj192@gmail.com" target="_blank">
              <EmailIcon/>
           </IconButton>
+          <div><ResumeButton></ResumeButton></div>
         </div>
       </div>
       <About/>
