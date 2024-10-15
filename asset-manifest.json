@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/Portfolio-2.0/static/css/main.c0f7c3de.css",
-    "main.js": "/Portfolio-2.0/static/js/main.d1c9b8c8.js",
+    "main.css": "/Portfolio-2.0/static/css/main.489a6c19.css",
+    "main.js": "/Portfolio-2.0/static/js/main.c95994f7.js",
     "static/media/crypto.png": "/Portfolio-2.0/static/media/crypto.ed904d8362d5376ef0ec.png",
     "static/media/uBelong.png": "/Portfolio-2.0/static/media/uBelong.54e847c1d14a38f11804.png",
     "static/media/ReceiptReader.png": "/Portfolio-2.0/static/media/ReceiptReader.1ed0a715c8ebdbf93e76.png",
     "static/media/Resume_Julio_Espinola.pdf": "/Portfolio-2.0/static/media/Resume_Julio_Espinola.cd8f5260a5db66c9ee46.pdf",
     "index.html": "/Portfolio-2.0/index.html",
-    "main.c0f7c3de.css.map": "/Portfolio-2.0/static/css/main.c0f7c3de.css.map",
-    "main.d1c9b8c8.js.map": "/Portfolio-2.0/static/js/main.d1c9b8c8.js.map"
+    "main.489a6c19.css.map": "/Portfolio-2.0/static/css/main.489a6c19.css.map",
+    "main.c95994f7.js.map": "/Portfolio-2.0/static/js/main.c95994f7.js.map"
   },
   "entrypoints": [
-    "static/css/main.c0f7c3de.css",
-    "static/js/main.d1c9b8c8.js"
+    "static/css/main.489a6c19.css",
+    "static/js/main.c95994f7.js"
   ]
 }
