@@ -1,16 +1,16 @@
 .footer {
     width: 100%;
-    min-height: 200px; /* Allows the footer to expand if needed */
+    /* min-height: 200px;  */
     background: #212329;
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
     gap: 10px; /* Use gap to space items vertically instead of padding */
-    box-shadow: rgba(252, 227, 4, 0.2) 0px 0px 20px 10px;
+    box-shadow: rgba(252, 227, 4, 0.2) 0px 0px 10px 5px;
     /* Optional for sticky footer */
     margin-top: auto;
-    padding: 20px 0; /* Adjust padding for more breathing room */
+    padding: 0px 0; /* Adjust padding for more breathing room */
   }
   
 .socialMedia svg {

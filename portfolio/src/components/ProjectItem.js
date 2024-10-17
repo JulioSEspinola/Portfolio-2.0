@@ -12,12 +12,13 @@ function ProjectItem({ image, name, id }) {
   return (
     <Card sx={{
       maxWidth: 345,
+      margin:5,
       color:"white",
       backgroundColor:"		#0e1111",
       transition: 'transform 0.3s, box-shadow 0.3s',
       '&:hover': {
         transform: 'scale(1.05)',
-        boxShadow: '0px 3px 15px rgba(252, 227, 4, 0.447) ',
+        boxShadow: '0px 2px 10px rgba(252, 227, 4, 0.447) ',
       },
     }} onClick={() => navigate("/project/" + id)}>
       <CardActionArea>
