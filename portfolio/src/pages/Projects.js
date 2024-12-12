@@ -10,9 +10,9 @@ function Projects() {
     <>
       <Box display="flex" flexDirection="column" alignItems="center" mt={6}>
         <h1 className='projects-title'>My Personal Projects</h1>
-        <Grid container spacing={3} justifyContent="center" className='projectList'>
+        <Grid container spacing={1} justifyContent="center" className='projectList'>
           {ProjectList.map((project, idx) => (
-            <Grid item xs={12} sm={6} md={4} lg={3} key={project.id}>
+            <Grid item xs={12} sm={6} md={6} lg={3} key={project.id}>
               <ProjectItem
                 id={idx}
                 name={project.name}
