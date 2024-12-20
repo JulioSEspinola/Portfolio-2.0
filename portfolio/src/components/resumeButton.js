@@ -1,6 +1,6 @@
 import React from 'react';
 import Button from '@mui/material/Button';
-import resume from '../assets/Resume_Julio_Espinola.pdf'
+import resume from '../assets/cv_Julio_Espinola.pdf'
 
 function ResumeButton() {
   const handleDownload = () => {
