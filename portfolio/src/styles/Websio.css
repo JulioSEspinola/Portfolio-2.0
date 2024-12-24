@@ -1,0 +1,9 @@
+.websio {
+    width: 100%;
+    height: auto;
+    align-items: center;
+    font-family: "Arial", sans-serif;
+    color: #f0f0f0;
+    padding-bottom: 100%;
+    /* box-shadow: rgba(252, 227, 4, 0.2) 0px -10px 10px 0px; */
+  }

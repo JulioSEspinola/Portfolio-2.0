@@ -11,25 +11,26 @@ function ProjectItem({ image, name, id }) {
 
   return (
     <Card sx={{
-      maxWidth: 345,
+      maxWidth: 500,
+      height:400,
       margin:5,
       color:"white",
       backgroundColor:"		#0e1111",
       transition: 'transform 0.3s, box-shadow 0.3s',
       '&:hover': {
         transform: 'scale(1.05)',
-        boxShadow: '0px 2px 10px rgba(252, 227, 4, 0.447) ',
+        boxShadow: '0px 0px 10px rgba(252, 227, 4, 0.447) ',
       },
     }} onClick={() => navigate("/project/" + id)}>
       <CardActionArea>
         <CardMedia
           component="img"
-          height="140"
+          height="250"
           image={image}
           alt={name}
         />
         <CardContent>
-          <Typography gutterBottom variant="h5" component="div">
+          <Typography gutterBottom variant="h4" component="div">
             {name}
           </Typography>
         </CardContent>
