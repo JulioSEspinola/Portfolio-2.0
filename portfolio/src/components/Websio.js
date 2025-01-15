@@ -36,26 +36,28 @@ function Websio() {
           />
           <CardContent>
             <Typography variant="h5" sx={{ color: "white" }}>
-              In my free time. I run a freelance software development company that specializes in
-              creating and maintaining websites using content management systems
-              (CMS) for non-profits. I have expertise in developing and
-              customizing themes and plugins to meet the specific needs of my
-              clients, ensuring seamless functionality. Security is a top
-              priority for me—I implement SSL certificates and firewalls to
-              safeguard websites, and I handle ongoing maintenance tasks such as
-              updates, backups, and bug fixes. My focus is on delivering
-              tailored, high-quality solutions to help non-profits optimize
-              their online presence through secure and efficient web
-              development and Artificial Intelligence.
+              In my spare time, I run a freelance software development business
+              dedicated to creating and maintaining websites for non-profits
+              using content management systems (CMS) and AI. My expertise lies in
+              developing and customizing themes and plugins to address each
+              client's unique needs, ensuring seamless functionality and user
+              experience. I prioritize security by implementing SSL
+              certificates, firewalls, and other measures to protect websites.
+              Additionally, I manage ongoing maintenance tasks such as updates,
+              backups, and bug fixes. My mission is to deliver tailored,
+              high-quality web development solutions that empower non-profits to
+              enhance their online presence securely and effectively.
             </Typography>
           </CardContent>
         </CardActionArea>
         <CardActions>
           <Button
             size="large"
-            onClick= {() => window.location.href = "https://juliosespinola.github.io/Websio/"}
+            onClick={() =>
+              (window.location.href =
+                "https://juliosespinola.github.io/Websio/")
+            }
             sx={{
-              
               bgcolor: "#e9d35b", // Custom background color
               color: "black", // Text color
               "&:hover": {

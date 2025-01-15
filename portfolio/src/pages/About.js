@@ -1,6 +1,7 @@
 import React from "react";
 import "../../src/styles/Home.css";
 import Websio from "../components/Websio";
+import Contact from "../components/Contact";
 
 export default function About() {
   return (
@@ -44,9 +45,12 @@ export default function About() {
             <span>AWS EC2, S3| Terraform | Docker</span>
           </div>
         </div>
-        <div>
-          <Websio></Websio>
-        </div>
+      </div>
+      <div>
+        <Websio></Websio>
+      </div>
+      <div className="contact-home">
+        <Contact></Contact>
       </div>
     </>
   );
