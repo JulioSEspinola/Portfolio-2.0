@@ -1,9 +1,52 @@
-.websio {
-    width: 100%;
-    height: auto;
-    align-items: center;
-    font-family: "Arial", sans-serif;
-    color: #f0f0f0;
-    padding-bottom: 100%;
-    /* box-shadow: rgba(252, 227, 4, 0.2) 0px -10px 10px 0px; */
+.websio-container {
+  width: 90%; /* Use percentage for responsive width */
+  max-width: 1000px; /* Maintain a max width */
+  height: auto; /* Allow flexible height */
+  font-family: "Arial", sans-serif;
+  color: #f0f0f0;
+  margin: auto; /* Center horizontally */
+  margin-bottom: 100px; /* Space below the container */
+  
+  display: flex; /* Enable flexbox */
+  align-items: center; /* Vertically center items */
+  justify-content: center; /* Horizontally center items */
+  flex-wrap: wrap; /* Wrap items on smaller screens */
+}
+
+.websio-container h2 {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 4vw; /* Responsive font size */
+  color: #e9d35b;
+  width: 100%; /* Take up full width */
+  overflow: hidden; /* Prevent content overflow */
+  white-space: nowrap; /* Keep text on a single line */
+  margin-bottom: 10px;
+  text-align: center; /* Center text */
+}
+
+.websio-container .container {
+  display: flex; /* Enable flexbox for inner container */
+  align-items: center; /* Vertically center items */
+  justify-content: center; /* Horizontally center items */
+  flex-wrap: wrap; /* Wrap items for smaller screens */
+}
+
+@media (max-width: 768px) {
+  .websio-container {
+    margin-bottom: 50px; /* Adjust spacing for smaller screens */
   }
+
+  .websio-container h2 {
+    font-size: 6vw; /* Increase text size for mobile */
+  }
+}
+
+@media (max-width: 480px) {
+  .websio-container {
+    margin-bottom: 30px; /* Reduce spacing further */
+  }
+
+  .websio-container h2 {
+    font-size: 7vw; /* Further increase text size for smaller devices */
+  }
+}

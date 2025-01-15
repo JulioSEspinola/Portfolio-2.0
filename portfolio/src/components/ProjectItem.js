@@ -12,10 +12,9 @@ function ProjectItem({ image, name, id }) {
   return (
     <Card sx={{
       maxWidth: 500,
-      height:400,
       margin:5,
       color:"white",
-      backgroundColor:"		#0e1111",
+      backgroundColor:"#2C2C2C ",
       transition: 'transform 0.3s, box-shadow 0.3s',
       '&:hover': {
         transform: 'scale(1.05)',
