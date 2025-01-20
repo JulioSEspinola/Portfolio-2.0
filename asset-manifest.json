@@ -1,18 +1,18 @@
 {
   "files": {
-    "main.css": "/Portfolio-2.0/static/css/main.ca81375e.css",
-    "main.js": "/Portfolio-2.0/static/js/main.7875aa72.js",
+    "main.css": "/Portfolio-2.0/static/css/main.aded8672.css",
+    "main.js": "/Portfolio-2.0/static/js/main.d2e5db7b.js",
     "static/media/crypto.png": "/Portfolio-2.0/static/media/crypto.ed904d8362d5376ef0ec.png",
     "static/media/websio_bckgrnd.png": "/Portfolio-2.0/static/media/websio_bckgrnd.90d1bd19d24b69381c08.png",
     "static/media/uBelong.png": "/Portfolio-2.0/static/media/uBelong.54e847c1d14a38f11804.png",
     "static/media/ReceiptReader.png": "/Portfolio-2.0/static/media/ReceiptReader.1ed0a715c8ebdbf93e76.png",
     "static/media/cv_Julio_Espinola.pdf": "/Portfolio-2.0/static/media/cv_Julio_Espinola.3cb31929f44a6b1a66da.pdf",
     "index.html": "/Portfolio-2.0/index.html",
-    "main.ca81375e.css.map": "/Portfolio-2.0/static/css/main.ca81375e.css.map",
-    "main.7875aa72.js.map": "/Portfolio-2.0/static/js/main.7875aa72.js.map"
+    "main.aded8672.css.map": "/Portfolio-2.0/static/css/main.aded8672.css.map",
+    "main.d2e5db7b.js.map": "/Portfolio-2.0/static/js/main.d2e5db7b.js.map"
   },
   "entrypoints": [
-    "static/css/main.ca81375e.css",
-    "static/js/main.7875aa72.js"
+    "static/css/main.aded8672.css",
+    "static/js/main.d2e5db7b.js"
   ]
 }
