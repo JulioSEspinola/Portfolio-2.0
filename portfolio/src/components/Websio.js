@@ -17,7 +17,7 @@ function Websio() {
       <Card
         size="lg"
         sx={{
-          maxWidth: 500,
+          maxWidth: 1000,
           margin: 5,
           bgcolor: "#2C2C2C ",
           transition: "transform 0.3s, box-shadow 0.3s",

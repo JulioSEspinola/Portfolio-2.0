@@ -1,5 +1,5 @@
 .websio-container {
-  width: 90%; /* Use percentage for responsive width */
+  width: 100%; /* Use percentage for responsive width */
   max-width: 1000px; /* Maintain a max width */
   height: auto; /* Allow flexible height */
   font-family: "Arial", sans-serif;
