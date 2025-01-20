@@ -46,7 +46,7 @@ function Contact() {
   return (
     <section id="contact" className="contact">
     <h2 className="title">Contact Us</h2>
-      <div className="container">
+      <div className="container-contact">
         <div className="content">
           <div className="formWrapper">
             <form className="form" onSubmit={(e) => onSubmit(e)}>
