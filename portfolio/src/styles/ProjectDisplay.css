@@ -1,43 +1,119 @@
-.project {
-    width: 100%;
-    /* height: calc(100vh - 100px); */
-    height: auto;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    margin-bottom: 100px;
-  }
-  
-  .project h1 {
-    margin-top: 50px;
-    color: #f1f1f1;
-    font-size: 35px;
-    display: flex;
-    
-
-  }
-  .project img {
-    width: 700px;
-    height: auto;
-    display: flex;
-    border-radius: 10px;
-  }
-
-@media only screen and (max-width: 800px) {
-  .project img{
-    max-width: 100%;
-  }
+:root {
+  --main-bg-color: #212329;
+  --main-text-color: #f7dcc2;
+  --purple-color: #9d00ff;
+  --box-shadow-color: rgba(252, 227, 4, 0.2);
+  --border-radius: 10px;
+  --pixelate-font: "Pixelify Sans", serif;
 }
-  
+
+.project {
+  width: 100%;
+  height: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-color: var(--main-text-color);
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+
+.project-display{
+  width: 50%;
+  height: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-color: white;
+  margin: 100px auto;
+  padding: 20px;
+  border-radius: 10px;
+  border: 5px solid #212329;
+  transition: transform 0.3s, box-shadow 0.5s;
+  animation: pulse 2s infinite;
+}
+
+.project h1 {
+  margin-top: 50px;
+  color: rgb(0, 0, 0);
+  font-size: 3rem;
+  display: flex;
+  font-family: var(--pixelate-font);
+}
+
+.project img {
+  width: 100%;
+  max-width: 500px; /* Set a maximum width for the image */
+  height: auto;
+  display: flex;
+  border-radius: 10px;
+  margin-top: 20px;
+}
+
 .project p {
   font-size: 30px;
-  color: #f1f1f1;
+  color: #000000;
   margin-top: 50px;
   width: 75%;
+  font-family: var(--pixelate-font);
 }
-  
+
 .project svg {
-    font-size: 60px;
-    color: #e9d35b;
+  font-size: 60px;
+  color: var(--purple-color);
+}
+
+@media only screen and (max-width: 1200px) {
+  .project h1 {
+    font-size: 2.5rem;
   }
+
+  .project p {
+    font-size: 25px;
+  }
+
+  .project svg {
+    font-size: 50px;
+  }
+}
+
+@media only screen and (max-width: 800px) {
+  .project {
+    margin-top: 50px;
+    margin-bottom: 50px;
+  }
+
+  .project h1 {
+    font-size: 2rem;
+  }
+
+  .project img {
+    max-width: 100%;
+  }
+
+  .project p {
+    font-size: 20px;
+    width: 90%;
+  }
+
+  .project svg {
+    font-size: 40px;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  .project h1 {
+    font-size: 1.5rem;
+  }
+
+  .project p {
+    font-size: 18px;
+    width: 95%;
+  }
+
+  .project svg {
+    font-size: 35px;
+  }
+}
