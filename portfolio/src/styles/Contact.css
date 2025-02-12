@@ -1,128 +1,158 @@
+:root {
+  --main-bg-color: #212329;
+  --main-text-color: #f7dcc2;
+  --purple-color: #9d00ff;
+  --box-shadow-color: rgba(252, 227, 4, 0.2);
+  --border-radius: 10px;
+  --pixelate-font: "Pixelify Sans", serif;
+}
+
 .contact {
-    padding: 5rem 0;
-    background-color: #212329;
+  padding: 5rem 0;
+  background-color: #212329;
+}
+
+.container-contact {
+  max-width: 100%;
+  margin: 0 auto;
+  padding: 0 2rem;
+}
+
+.title {
+  text-align: center;
+  color: white;
+  font-size: 3rem;
+  font-family: var(--pixelate-font);
+}
+
+.content {
+  display: flex; /* Enable flexbox */
+  gap: 4rem;
+  flex-wrap: wrap; /* Allows wrapping on smaller screens */
+}
+
+.formWrapper {
+  flex: 1;
+  max-width: 1000px; /* Ensures the form doesn't stretch too wide */
+  margin: 0 auto; /* Centers the form */
+}
+
+.form {
+  background-color: #000000;
+  padding: 2rem;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  width: 100%; /* Ensures the form takes full width of the wrapper */
+}
+
+.formGroup {
+  margin-bottom: 1.5rem;
+}
+
+.label {
+  display: block;
+  margin-bottom: 0.5rem;
+  color: #ffffff;
+  font-weight: bold;
+  font-family: var(--pixelate-font);
+}
+
+.input,
+.textarea {
+  width: 100%;
+  padding: 0.75rem;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  font-size: 1rem;
+}
+
+.textarea {
+  min-height: 150px;
+  resize: vertical;
+}
+
+.button {
+  display: inline-block;
+  font-family: var(--pixelate-font);
+  background-color: var(--purple-color);
+  color: white;
+  padding: 0.75rem 1.5rem;
+  border: none;
+  border-radius: 4px;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.button:hover {
+  background-color: #ffffff;
+  color: black;
+}
+
+.infoWrapper {
+  flex: 1;
+  max-width: 600px; /* Limits the info section width */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: 0 auto; /* Centers the info section */
+}
+
+.infoGroup {
+  margin-bottom: 2rem;
+}
+
+.infoTitle {
+  color: #007bff;
+  font-size: 1.2rem;
+  margin-bottom: 0.5rem;
+}
+
+.infoText {
+  color: #555;
+  font-size: 1rem;
+}
+
+@media (max-width: 768px) {
+  .contact {
+    padding: 3rem 0;
   }
-  
-  .container-contact {
-    max-width: 100%;
-    margin: 0 auto;
-    padding: 0 2rem;
-  }
-  
+
   .title {
-    text-align: center;
-    color: #e9d35b;
-    font-size: 2.5rem;
-    margin-bottom: 3rem;
-  }
-  
-  .content {
-    /* display: flex; */
-    gap: 4rem;
-    flex-wrap: wrap; /* Allows wrapping on smaller screens */
-  }
-  
-  .formWrapper {
-    flex: 1;
-    max-width: 1000px; /* Ensures the form doesn't stretch too wide */
-    margin: 0 auto; /* Centers the form */
-  }
-  
-  .form {
-    background-color: #ffffff;
-    padding: 2rem;
-    border-radius: 8px;
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-    width: 100%; /* Ensures the form takes full width of the wrapper */
-  }
-  
-  .formGroup {
-    margin-bottom: 1.5rem;
-  }
-  
-  .label {
-    display: block;
-    margin-bottom: 0.5rem;
-    color: #333;
-    font-weight: bold;
-  }
-  
-  .input,
-  .textarea {
-    width: 100%;
-    padding: 0.75rem;
-    border: 1px solid #ddd;
-    border-radius: 4px;
-    font-size: 1rem;
-  }
-  
-  .textarea {
-    min-height: 150px;
-    resize: vertical;
-  }
-  
-  .button {
-    display: inline-block;
-    background-color: #e9d35b;
-    color: #000000;
-    padding: 0.75rem 1.5rem;
-    border: none;
-    border-radius: 4px;
-    font-size: 1rem;
-    cursor: pointer;
-    transition: background-color 0.3s ease;
-  }
-  
-  .button:hover {
-    background-color: #c1ae47;
-  }
-  
-  .infoWrapper {
-    flex: 1;
-    max-width: 600px; /* Limits the info section width */
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    margin: 0 auto; /* Centers the info section */
-  }
-  
-  .infoGroup {
+    font-size: 2rem;
     margin-bottom: 2rem;
   }
-  
-  .infoTitle {
-    color: #007bff;
-    font-size: 1.2rem;
-    margin-bottom: 0.5rem;
+
+  .content {
+    flex-direction: column; /* Stacks the form and info sections vertically */
+    gap: 2rem;
   }
-  
-  .infoText {
-    color: #555;
-    font-size: 1rem;
+
+  .form {
+    padding: 1.5rem;
   }
-  
-  @media (max-width: 768px) {
-    .contact {
-      padding: 3rem 0;
-    }
-  
-    .title {
-      font-size: 2rem;
-      margin-bottom: 2rem;
-    }
-  
-    .content {
-      flex-direction: column; /* Stacks the form and info sections vertically */
-      gap: 2rem;
-    }
-  
-    .form {
-      padding: 1.5rem;
-    }
-  
-    .formWrapper, .infoWrapper {
-      max-width: 100%; /* Makes sections take full width on smaller screens */
-      padding: 0 1rem; /* Adds padding for smaller devices */
-    }
+
+  .formWrapper, .infoWrapper {
+    max-width: 100%; /* Makes sections take full width on smaller screens */
+    padding: 0 1rem; /* Adds padding for smaller devices */
   }
-  
+}
+
+@media (max-width: 480px) {
+  .contact {
+    padding: 2rem 0;
+  }
+
+  .title {
+    font-size: 1.5rem;
+    margin-bottom: 1.5rem;
+  }
+
+  .form {
+    padding: 1rem;
+  }
+
+  .formWrapper, .infoWrapper {
+    padding: 0 0.5rem; /* Adds padding for smaller devices */
+  }
+}

@@ -13,13 +13,13 @@
   height: auto; /* Allow flexible height */
   color: #f0f0f0;
   margin: auto; /* Center horizontally */
-  margin-bottom: 100px; /* Space below the container */
+  margin-bottom: 100px; 
   background-color: white;
   display: flex; /* Enable flexbox */
   align-items: center; /* Vertically center items */
   justify-content: center; /* Horizontally center items */
   flex-wrap: wrap; /* Wrap items on smaller screens */
-  margin-top: 20px;
+  margin-top: 100px;
   border-radius: 10px;
   border: 5px solid #212329;
 }
@@ -28,7 +28,6 @@
   font-family: var(--pixelate-font);
   font-size: 3rem; /* Responsive font size */
   color: black;
-  width: 100%; /* Take up full width */
   overflow: hidden; /* Prevent content overflow */
   white-space: nowrap; /* Keep text on a single line */
   margin-bottom: 10px;
