@@ -1,3 +1,12 @@
+:root {
+  --main-bg-color: #212329;
+  --main-text-color: #f7dcc2;
+  --purple-color: #9d00ff;
+  --box-shadow-color: rgba(252, 227, 4, 0.2);
+  --border-radius: 10px;
+  --pixelate-font: "Pixelify Sans", serif;
+}
+
 .navbar {
     width: 100%;
     height: 100px;
@@ -15,10 +24,11 @@
 }
   
 .navbar a {
-  color: white;
+  color:var(--purple-color);
   text-decoration: none;
   margin: 20px;
-  font-size: 25px;
+  font-size: 2rem;
+  font-family: var(--pixelate-font);
 }
   
 .toggleButton {

@@ -3,6 +3,7 @@ import { Link, useLocation } from "react-router-dom";
 import "../styles/Navbar.css";
 import ReorderIcon from '@mui/icons-material/Reorder';
 
+//If changed to true, the Experience link will be displayed in the Navbar
 const isActive = false;
 
 function Navbar() {

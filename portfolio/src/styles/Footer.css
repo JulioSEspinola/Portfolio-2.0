@@ -1,31 +1,45 @@
+:root {
+    --main-bg-color: #212329;
+    --main-text-color: #f7dcc2;
+    --purple-color: #9d00ff;
+    --box-shadow-color: rgba(252, 227, 4, 0.2);
+    --border-radius: 10px;
+    --pixelate-font: "Pixelify Sans", serif;
+  }
+
 .footer {
     width: 100%;
     /* min-height: 200px;  */
-    background: #212329;
+    background: #000000;
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    gap: 10px; /* Use gap to space items vertically instead of padding */
-    box-shadow: rgba(252, 227, 4, 0.2) 0px 0px 10px 5px;
-    /* Optional for sticky footer */
+    gap: 10px; 
+    box-shadow: rgba(145, 13, 248, 0.6) 0px 0px 10px;
     margin-top: auto;
     padding: 0px 0; /* Adjust padding for more breathing room */
   }
   
 .socialMedia svg {
-    color: white;
+    color: var(--purple-color);
     margin: 20px;
-    font-size: 70px;
+    font-size: 3rem;
     cursor: pointer;
 }
   
 .footer p {
     color: white;
+    font-family: var(--pixelate-font);
 }
   
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 500px) {
 .footer svg {
-      font-size: 50px;
+      font-size: 2.5rem;
 }
+@media only screen and (max-width: 400px) {
+    .footer svg {
+          font-size: 2rem;
+    }
+    }
 }
