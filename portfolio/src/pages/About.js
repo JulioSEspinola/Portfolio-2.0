@@ -7,7 +7,7 @@ export default function About() {
   return (
     <>
       <div className="skills">
-        <h1>About me</h1>
+        <h1 className="pixelify-sans-h1">About me</h1>
         <p className="about-me">
           My name is Julio Espinola, and I’m a Software Engineer based in
           Washington State. I’m deeply passionate about learning and

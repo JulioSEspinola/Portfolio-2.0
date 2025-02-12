@@ -1,167 +1,259 @@
+:root {
+  --main-bg-color: #212329;
+  --main-text-color: #f7dcc2;
+  --purple-color: #9d00ff;
+  --box-shadow-color: rgba(252, 227, 4, 0.2);
+  --border-radius: 10px;
+  --pixelate-font: "Pixelify Sans", serif;
+}
+
 .home {
-    width: 100%;
-    height: auto;
-    align-items: center;
-    font-family: "Arial", sans-serif;
-    color: #f0f0f0;
-    /* box-shadow: rgba(252, 227, 4, 0.2) 0px -10px 10px 0px; */
-  }
-  
-  .about {
-    width: 100%;
-    height: calc(100vh - 100px);
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-    color: #f0f0f0;
-  }
-  
-  .about h2 {
-    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
-    font-size: 70px;
-    color: #e9d35b;
-    width: 100%;
-    overflow: hidden; /* Ensures the content is not revealed until the animation */
-    /* border-right: .15em solid orange; The typwriter cursor */
-    white-space: nowrap; /* Keeps the content on a single line */
-    margin: 0 auto; /* Gives that scrolling effect as the typing happens */
-    /* letter-spacing: .15em; Adjust as needed */
-    animation: typing 3.5s steps(30, end),blink-caret .5s step-end infinite;
+  width: 100%;
+  height: auto;
+  align-items: center;
+  font-family: "Arial", sans-serif;
+  color: var(--main-text-color);
+  /* box-shadow: var(--box-shadow-color) 0px -10px 10px 0px; */
+}
 
-  }
+.about {
+  width: 100%;
+  height: calc(100vh - 100px);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  color: var(--main-text-color);
+}
 
-  /* The typing effect */
+.about .Julio{
+  color: rgba(0, 0, 0, 0.721);
+  font-size: 3.5rem;
+}
+
+.about h2 {
+  font-family: "Pixelify Sans", serif;
+  font-size: 3rem;
+  color: var(--purple-color);
+  width: 100%;
+  overflow: hidden; /* Ensures the content is not revealed until the animation */
+  border-right: 0.15em solid var(--purple-color); /* The typewriter cursor */
+  white-space: nowrap; /* Keeps the content on a single line */
+  margin: 0 auto; /* Gives that scrolling effect as the typing happens */
+  animation: typing 3.5s steps(30, end), blink-caret 0.5s step-end infinite;
+}
+
+/* The typing effect */
 @keyframes typing {
-  from { width: 0 }
-  to { width: 100% }
+  from {
+    width: 0;
+  }
+  to {
+    width: 50%;
+  }
 }
 
 /* The typewriter cursor effect */
 @keyframes blink-caret {
-  from, to { border-color: transparent }
-  50% { border-color: #e9d35b }
+  from,
+  to {
+    border-color: transparent;
+  }
+  50% {
+    border-color: var(--purple-color);
+  }
 }
-  
-  .about .prompt {
-    width: 40%;
-    font-size: 30px;
-  }
 
-  
-  .prompt svg {
-    font-size: 60px;
-    margin: 10px;
-    color: white;
-    
-  }
-  
-  .skills {
-    font-size: 35px;
-    width: 100%;
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
-    align-items: center;
-    background-color: #212329;
-  }
-  
-  .skills h1 {
-    color: #e9d35b;
-  }
-  
-  .skills .list {
-    list-style: none;
-    width: 60%;
-    margin-bottom:100px ;
-  }
-  
-  .list span {
-    font-size: 20px;
-  }
-  
-  @media only screen and (max-width: 500px) {
-    .about h2 {
-      font-size: 30px;
-      width:100%;
-    }
-  
-    .about .prompt {
-      margin-top: 30px;
-      font-size: 20px;
-      width: 80%;
-    }
-  
-    .skills {
-      text-align: center;
-    }
-    .list {
-      padding: 0;
-    }
-  
-    .skills h2 {
-      font-size: 30px;
-    }
-  }
-
-  @media only screen and (max-width: 700px) {
-    .about h2 {
-      font-size: 40px;
-      width:100%;
-    }
-  }
-
- .about-me{
+.about .prompt {
+  width: 40%;
   font-size: 30px;
-  width: 75%;
-  padding: 30px;
-  border-radius: 10px;
-  box-shadow: rgba(252, 227, 4, 0.2) 0px 0px  5px;
- }
-
-.skills-h{
-  padding: -20px;
 }
 
-.prompt p{
+.prompt svg {
+  font-size: 60px;
+  margin: 10px;
+  color: white;
+}
+
+.skills {
+  font-size: 35px;
   width: 100%;
   display: flex;
-
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  background-color: #212329;
 }
 
-.item-skills{
+.skills h1 {
+  color: white;
+}
+
+.skills .list {
+  list-style: none;
+  width: 60%;
+  margin-bottom: 100px;
+}
+
+.list span {
+  font-size: 20px;
+}
+
+@media only screen and (max-width: 500px) {
+  .about h2 {
+    font-size: 30px;
+    width: 100%;
+  }
+
+  .about .prompt {
+    margin-top: 30px;
+    font-size: 20px;
+    width: 80%;
+  }
+
+  .skills {
+    text-align: center;
+  }
+  .list {
+    padding: 0;
+  }
+
+  .skills h2 {
+    font-size: 30px;
+  }
+}
+
+@media only screen and (max-width: 700px) {
+  .about h2 {
+    font-size: 40px;
+    width: 100%;
+  }
+}
+
+
+/*-------------ABOUT ME--------------------*/
+.about-me {
+  font-size: 30px;
+  background-color: #000000;
+  color: #ffffff;
+  font-size: 1.5rem;
+  width: 75%;
+  padding: 35px;
+  border-radius: 10px;
+  box-shadow: rgba(145, 13, 248, 0.6)0px 0px 10px;
+  font-family: "Pixelify Sans", serif;
+}
+
+/*-------------SKILLS--------------------*/
+.skills-h {
+  padding: -20px;
+  color: var(--purple-color);
+  font-family: "Pixelify Sans", serif;
+}
+
+.prompt p {
+  width: 100%;
+  display: flex;
+}
+
+.item-skills {
   border: 2px solid rgba(252, 227, 4, 0.2);
-  border-radius: 10px; 
+  border-radius: 10px;
   margin: 10px;
-  box-shadow: rgba(252, 227, 4, 0.2) 0px 0px 5px ;
-  
+  box-shadow: rgba(252, 227, 4, 0.2) 0px 0px 5px;
 }
 
 .container {
   display: flex; /* or inline-flex */
-
   justify-content: center;
   flex-wrap: wrap;
-  margin:10px;
+  margin: 10px;
   margin-bottom: 100px;
 }
 
-
-.technologies:hover{
-  box-shadow: rgba(252, 227, 4, 0.6) 0px 20px 50px, rgba(0, 0, 0, 0.2) 0px 10px 20px;
-  transform: perspective(1000px) rotateX(20deg) rotateY(20deg);
-}
-.technologies{
-  box-shadow: rgba(252, 227, 4, 0.2) 0px 0px 5px ;
-  margin:10px auto;
-  padding:10px;
+.technologies {
+  box-shadow: rgba(145, 13, 248, 0.6) 0px 0px 5px;
+  margin: 10px auto;
+  padding: 10px;
   max-width: 20%;
-  background-color: #e9d35b;
-  color:#212329;
+  background-color: #000000;
+  color: white;
   border-radius: 10px;
+  font-family: "Pixelify Sans", serif;
+}
+
+.technologies:hover {
+  box-shadow: rgba(145, 13, 248, 0.6) 0px 20px 50px,
+    rgba(0, 0, 0, 0.2) 0px 10px 20px;
+  transform: perspective(1000px) rotateX(20deg) rotateY(20deg);
 }
 
 .technologies span {
-  font-size: 20px;
+  font-size: 1.5rem;
+}
+
+/* Responsive styles */
+@media only screen and (max-width: 1200px) {
+  .technologies {
+    max-width: 25%;
+  }
+}
+
+@media only screen and (max-width: 992px) {
+  .technologies {
+    max-width: 30%;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .technologies {
+    max-width: 40%;
+  }
+}
+
+@media only screen and (max-width: 576px) {
+  .technologies {
+    max-width: 60%;
+  }
+}
+
+@media only screen and (max-width: 400px) {
+  .technologies {
+    max-width: 80%;
+  }
+}
+
+
+/*-------------RESUME BUTTON--------------------*/
+@keyframes pulse {
+  0% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.05);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+
+.resume-button {
+  color: white;
+  font-weight: bold;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.45);
+  transition: transform 0.3s, box-shadow 0.5s;
+  animation: pulse 2s infinite;
+}
+
+.resume-button:hover {
+  animation: pulse 2s infinite;
+}
+
+
+.pixelify-sans-h1 {
+  font-family: "Pixelify Sans", serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
 }

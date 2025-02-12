@@ -1,22 +1,33 @@
+:root {
+  --main-bg-color: #212329;
+  --main-text-color: #f7dcc2;
+  --purple-color: #9d00ff;
+  --box-shadow-color: rgba(252, 227, 4, 0.2);
+  --border-radius: 10px;
+  --pixelate-font: "Pixelify Sans", serif;
+}
+
 .websio-container {
   width: 100%; /* Use percentage for responsive width */
   max-width: 1000px; /* Maintain a max width */
   height: auto; /* Allow flexible height */
-  font-family: "Arial", sans-serif;
   color: #f0f0f0;
   margin: auto; /* Center horizontally */
   margin-bottom: 100px; /* Space below the container */
-  
+  background-color: white;
   display: flex; /* Enable flexbox */
   align-items: center; /* Vertically center items */
   justify-content: center; /* Horizontally center items */
   flex-wrap: wrap; /* Wrap items on smaller screens */
+  margin-top: 20px;
+  border-radius: 10px;
+  border: 5px solid #212329;
 }
 
 .websio-container h2 {
-  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
-  font-size: 2.5rem; /* Responsive font size */
-  color: #e9d35b;
+  font-family: var(--pixelate-font);
+  font-size: 3rem; /* Responsive font size */
+  color: black;
   width: 100%; /* Take up full width */
   overflow: hidden; /* Prevent content overflow */
   white-space: nowrap; /* Keep text on a single line */

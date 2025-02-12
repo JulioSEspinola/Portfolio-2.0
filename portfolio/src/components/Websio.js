@@ -17,25 +17,25 @@ function Websio() {
       <Card
         size="lg"
         sx={{
-          maxWidth: 1000,
+          // maxWidth: 1000,
           margin: 5,
-          bgcolor: "#2C2C2C ",
+          bgcolor: "black ",
           transition: "transform 0.3s, box-shadow 0.3s",
           "&:hover": {
-            transform: "scale(1.05)",
-            boxShadow: "0px 0px 10px rgba(252, 227, 4, 0.447) ",
+            transform: "scale(1.01)",
+            boxShadow: "rgba(145, 13, 248, 0.6) 0px 0px 5px ",
           },
         }}
       >
         <CardActionArea>
           <CardMedia
             component="img"
-            height="100%"
+            height="50%"
             image={websio}
             alt="Websio"
           />
           <CardContent>
-            <Typography variant="h5" sx={{ color: "white" }}>
+            <Typography variant="h6" sx={{ color: "white",fontFamily: "'Pixelify Sans', serif" }}>
               In my spare time, I run a freelance software development business
               dedicated to creating and maintaining websites for non-profits
               using content management systems (CMS) and AI. My expertise lies in
@@ -58,10 +58,12 @@ function Websio() {
                 "https://juliosespinola.github.io/Websio/")
             }
             sx={{
-              bgcolor: "#e9d35b", // Custom background color
-              color: "black", // Text color
+              bgcolor: "#9d00ff", // Custom background color
+              fontFamily: "'Pixelify Sans', serif" ,
+              color: "white", // Text color
               "&:hover": {
-                bgcolor: "rgba(252, 227, 4, 0.447)", // Darker shade for hover
+                bgcolor: "white", // Darker shade for hover
+                color: "black", // Text color for hover
               },
             }}
           >

@@ -37,5 +37,4 @@ function ProjectItem({ image, name, id }) {
     </Card>
   );
 }
-
 export default ProjectItem;
