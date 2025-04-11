@@ -16,7 +16,7 @@ function home() {
           <IconButton href="https://github.com/JulioSEspinola" target="_blank">
             <GithubIcon />
           </IconButton>
-          <IconButton href="https://www.linkedin.com/in/julio-steven-espinola-rodas-734902190/" target="_blank">
+          <IconButton href="https://www.linkedin.com/in/julio-steven-espinola-rodas/" target="_blank">
             <LinkedInIcon/>
           </IconButton>
           <IconButton href="mailto: espinolaj192@gmail.com" target="_blank">
