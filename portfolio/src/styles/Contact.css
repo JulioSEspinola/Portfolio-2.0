@@ -39,7 +39,7 @@
 
 .form {
   background-color: #000000;
-  padding: 2rem;
+  /* padding: 2rem; */
   border-radius: 8px;
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
   width: 100%; /* Ensures the form takes full width of the wrapper */
@@ -59,7 +59,7 @@
 
 .input,
 .textarea {
-  width: 100%;
+  width: 50%;
   padding: 0.75rem;
   border: 1px solid #ddd;
   border-radius: 4px;
@@ -113,6 +113,32 @@
   font-size: 1rem;
 }
 
+/* Responsive Styles */
+@media (max-width: 1042px){
+  .contact {
+    padding: 4rem 0;
+  }
+
+  .title {
+    font-size: 2.5rem;
+    margin-bottom: 2.5rem;
+  }
+
+  .content {
+    width: 100%;
+    gap: 3rem;
+  }
+
+  .formWrapper, .infoWrapper {
+    max-width: 100%; /* Makes sections take full width on smaller screens */
+    padding: 0 1rem; /* Adds padding for smaller devices */
+  }
+  .form {
+    width: 100%; /* Adjust padding for medium screens */
+  }
+}
+
+
 @media (max-width: 768px) {
   .contact {
     padding: 3rem 0;
@@ -124,12 +150,7 @@
   }
 
   .content {
-    flex-direction: column; /* Stacks the form and info sections vertically */
     gap: 2rem;
-  }
-
-  .form {
-    padding: 1.5rem;
   }
 
   .formWrapper, .infoWrapper {
@@ -148,11 +169,36 @@
     margin-bottom: 1.5rem;
   }
 
-  .form {
-    padding: 1rem;
-  }
-
   .formWrapper, .infoWrapper {
     padding: 0 0.5rem; /* Adds padding for smaller devices */
   }
+
+  .input,
+  .textarea {
+    font-size: 0.9rem; /* Reduce input font size for smaller screens */
+    padding: 0.5rem; /* Reduce padding for smaller inputs */
+  }
+
+  .button {
+    font-size: 0.9rem; /* Reduce button font size */
+    padding: 0.5rem 1rem; /* Adjust button padding */
+  }
+}
+
+@media (max-width: 360px) {
+  .title {
+    font-size: 1.2rem; /* Further reduce font size for very small devices */
+  }
+
+  .input,
+  .textarea {
+    font-size: 0.8rem; /* Further reduce input font size */
+    padding: 0.4rem; /* Adjust padding for smaller inputs */
+  }
+
+  .button {
+    font-size: 0.8rem; /* Further reduce button font size */
+    padding: 0.4rem 0.8rem; /* Adjust button padding */
+  }
+  
 }

@@ -45,11 +45,12 @@ function Contact() {
 
   return (
     <section id="contact" className="contact">
-    <h2 className="title">Lets get in touch!</h2>
+      <h2 className="title">Let's get in touch!</h2>
       <div className="container-contact">
         <div className="content">
+          {/* Form Section */}
           <div className="formWrapper">
-            <form className="form" onSubmit={(e) => onSubmit(e)}>
+            <form className="form" onSubmit={onSubmit}>
               <div className="formGroup">
                 <label htmlFor="name" className="label">
                   Full Name

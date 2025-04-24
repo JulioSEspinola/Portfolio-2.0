@@ -8,20 +8,21 @@
 }
 
 .websio-container {
-  width: 100%; /* Use percentage for responsive width */
+  width: 90%; /* Use percentage for better responsiveness */
   max-width: 1000px; /* Maintain a max width */
-  height: auto; /* Allow flexible height */
+  min-height: 60vh; /* Set a minimum height relative to the viewport */
+  height: auto; /* Allow flexible height for content */
   color: #f0f0f0;
-  margin: auto; /* Center horizontally */
-  margin-bottom: 100px; 
+  margin: 50px auto; /* Center horizontally and add vertical spacing */
   background-color: white;
   display: flex; /* Enable flexbox */
+  flex-direction: column; /* Stack items vertically */
   align-items: center; /* Vertically center items */
   justify-content: center; /* Horizontally center items */
-  flex-wrap: wrap; /* Wrap items on smaller screens */
-  margin-top: 100px;
+  padding: 20px; /* Add padding for better spacing */
   border-radius: 10px;
   border: 5px solid #212329;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Add a subtle shadow */
 }
 
 .websio-container h2 {
@@ -41,22 +42,49 @@
   flex-wrap: wrap; /* Wrap items for smaller screens */
 }
 
-@media (max-width: 768px) {
+@media (max-width: 1024px) {
   .websio-container {
-    margin-bottom: 50px; /* Adjust spacing for smaller screens */
+    padding: 15px; /* Reduce padding for medium screens */
   }
 
   .websio-container h2 {
-    font-size: 6vw; /* Increase text size for mobile */
+    font-size: 2rem; /* Adjust font size for medium screens */
+  }
+}
+
+@media (max-width: 768px) {
+  .websio-container {
+    min-height: 50vh; /* Reduce minimum height for smaller screens */
+    margin: 30px auto; /* Adjust vertical spacing */
+    padding: 15px; /* Adjust padding */
+  }
+
+  .websio-container h2 {
+    font-size: 1.8rem; /* Adjust font size for smaller screens */
+    white-space: normal; /* Allow text to wrap on smaller screens */
+  }
+}
+
+@media (max-width: 600px) {
+  .websio-container {
+    min-height: 45vh; /* Further reduce minimum height for smaller devices */
+    margin: 20px auto; /* Adjust vertical spacing */
+    padding: 10px; /* Keep padding minimal */
+  }
+
+  .websio-container h2 {
+    font-size: 1.5rem; /* Further reduce font size for smaller devices */
   }
 }
 
 @media (max-width: 480px) {
   .websio-container {
-    margin-bottom: 30px; /* Reduce spacing further */
+    min-height: 40vh; /* Further reduce minimum height for mobile devices */
+    margin: 15px auto; /* Adjust vertical spacing */
+    padding: 8px; /* Keep padding minimal */
   }
 
   .websio-container h2 {
-    font-size: 7vw; /* Further increase text size for smaller devices */
+    font-size: 1.2rem; /* Further reduce font size for very small devices */
   }
 }
