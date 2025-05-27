@@ -18,6 +18,7 @@ function ProjectItem({ image, name, id }) {
       backgroundColor:"white",
       transition: 'transform 0.3s, box-shadow 0.3s',
       borderRadius: '10px',
+      boxShadow: '10px 10px 0px rgba(0, 0, 0, 0.6)',
       border: '5px solid #333',
       '&:hover': {
         transform: 'scale(1.01)',
