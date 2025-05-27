@@ -41,6 +41,7 @@ function Contact() {
         // request related error.
         setError(error.message ? error.message : error);
       });
+
   }
 
   return (

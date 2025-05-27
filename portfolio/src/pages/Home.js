@@ -22,8 +22,17 @@ function home() {
           <IconButton href="mailto: espinolaj192@gmail.com" target="_blank">
              <EmailIcon/>
           </IconButton>
-          <div><ResumeButton></ResumeButton></div>
+          {/* <div><ResumeButton></ResumeButton></div> */}
         </div>
+        <p className="about-me">
+          My name is Julio Espinola, and I’m a Software Engineer based in
+          Washington State. I’m deeply passionate about learning and
+          problem-solving, with approximately 2 years of professional
+          experience, including both internships and full-time roles. I’m also
+          the founder of Websio, a consulting company dedicated to providing web
+          development services to small non-profit organizations in the Pierce
+          and King County areas.
+        </p>
       </div>
       <About/>
     </div>

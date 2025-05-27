@@ -9,7 +9,6 @@
 
 .contact {
   padding: 5rem 0;
-  background-color: #212329;
 }
 
 .container-contact {
@@ -20,7 +19,7 @@
 
 .title {
   text-align: center;
-  color: white;
+  color: rgb(0, 0, 0);
   font-size: 3rem;
   font-family: var(--pixelate-font);
 }
@@ -39,7 +38,6 @@
 
 .form {
   background-color: #000000;
-  /* padding: 2rem; */
   border-radius: 8px;
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
   width: 100%; /* Ensures the form takes full width of the wrapper */
@@ -82,6 +80,7 @@
   font-size: 1rem;
   cursor: pointer;
   transition: background-color 0.3s ease;
+  margin-bottom: 10px;
 }
 
 .button:hover {

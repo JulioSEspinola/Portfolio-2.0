@@ -8,50 +8,62 @@
 }
 
 .navbar {
-    width: 100%;
-    height: 100px;
-    background: #212329;
-    box-shadow: rgba(145, 13, 248, 0.6) 0px 0px 10px 2px;
-  }
+  width: 90%;
+  height: 75px;
+  margin: 10px auto;
+  background: var(--main-bg-color); /* Use your variable */
+  border-radius: var(--border-radius); /* Use your variable */
+  display: flex; /* Add this to control alignment of items within the navbar */
+  justify-content: space-between; /* Distribute space evenly */
+  align-items: center; /* Vertically align items */
+  padding: 0 20px; /* Add some padding on the sides */
+}
   
 .links {
-  width: 100%;
+  width: auto; /* Change to auto */
   height: 100%;
   display: flex;
   align-items: center;
   justify-content: center;
-  color: white;
+  color: var(--main-text-color); /* Use your variable */
 }
   
 .navbar a {
   color:var(--purple-color);
   text-decoration: none;
-  margin: 20px;
+  margin: 0 15px; /* Reduce margin for smaller screens */
   font-size: 2rem;
   font-family: var(--pixelate-font);
+  transition: color 0.3s ease; /* Add a smooth transition */
+}
+
+.navbar a:hover {
+  color: #f7dcc2; /* Change color on hover */
 }
   
 .toggleButton {
-  width: 100%;
+  /* width: 100%; */
   height: 100px;
-  display: flex;
+  display: none;
   align-items: center;
   justify-content: flex-end;
 }
   
 .toggleButton svg {
   font-size: 50px;
+  color: var(--main-text-color); /* Use your variable */
 }
+
 .toggleButton button {
   margin-right: 20px;
   background-color: transparent; 
   border: none;
-  color: white;
+  color: var(--main-text-color);
   cursor: pointer;
 }
   
 #open {
-  height: 100vh;
+  height: auto;
 }
   
 #open .links {
@@ -64,23 +76,17 @@
   width: 100%;
   text-align: center;
 }
-  
-@media only screen and (max-width: 900px) {
-  .navbar a {
-    width: 70px;
-  }
-}
-  
-@media only screen and (max-width: 600px) {
-  .toggleButton {
-    display: flex;
-  }
-  #close a {
-    display: none;
-  }
-}
-  
+
+/* For larger screens, adjust the link size */
 @media only screen and (min-width: 600px) {
+  .navbar a {
+    font-size: 2.2rem; 
+    margin: 0 20px;
+  }
+}
+
+/* Tablets and larger */
+@media only screen and (min-width: 768px) {
   .toggleButton {
     display: none;
   }
@@ -90,10 +96,38 @@
   }
   
   #open {
-    height: 100px;
+    height: auto;
   }
   
   #open .links {
     flex-direction: row;
+  }
+}
+
+/* Larger desktop screens */
+@media only screen and (min-width: 992px) {
+  .navbar {
+      width: 80%; /* Narrower for larger screens */
+  }
+
+  .navbar a {
+      font-size: 2.5rem;
+  }
+}
+
+/* Mobile Specific Styles */
+@media only screen and (max-width: 600px) {
+  .navbar a {
+    width: auto; /* remove fixed width */
+    font-size: 1.5rem; /* Smaller font size for mobile */
+    margin: 10px;
+  }
+
+  .toggleButton {
+    display: flex;
+  }
+
+  #close a {
+    display: none;
   }
 }

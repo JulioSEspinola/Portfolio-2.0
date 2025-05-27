@@ -7,16 +7,6 @@ export default function About() {
   return (
     <>
       <div className="skills">
-        <h1 className="pixelify-sans-h1">About me</h1>
-        <p className="about-me">
-          My name is Julio Espinola, and I’m a Software Engineer based in
-          Washington State. I’m deeply passionate about learning and
-          problem-solving, with approximately 2 years of professional
-          experience, including both internships and full-time roles. I’m also
-          the founder of Websio, a consulting company dedicated to providing web
-          development services to small non-profit organizations in the Pierce
-          and King County areas.
-        </p>
         <h1 className="skills-h">Skills</h1>
         <div className="container">
           <div className="technologies">
