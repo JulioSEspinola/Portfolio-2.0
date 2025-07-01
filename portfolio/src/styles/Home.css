@@ -27,6 +27,8 @@
   color: var(--main-text-color);
   padding: 2vw 2vw 0 2vw;
   box-sizing: border-box;
+  margin-bottom: 100px;
+  margin-top: 100px;
 }
 
 .about .Julio {
@@ -92,7 +94,7 @@
 
 /*SKILLS SECTION*/
 .skills {
-  font-size: 35px;
+  font-size: 2.2rem;
   width: 100%;
   display: flex;
   justify-content: center;
@@ -100,20 +102,41 @@
   align-items: center;
   background-color: #F5EEDD;
 }
-
 /* .skills h1 {
+  font-family: "Pixelify Sans", serif;
+  font-size: 3rem;
   color: black;
+  text-align: center;
+  margin-top: 20px;
 } */
+.skills h2 {
+  font-size: 2.2rem;
+  color: black;
+  text-align: left;
+  margin-bottom: 20px;
+  width: 100%;
+  max-width: 700px;
+  word-break: break-word;
+}
 
 .skills .list {
   list-style: none;
   width: 60%;
   margin-bottom: 100px;
+  font-size: 1.3rem;
 }
 
 .list span {
-  font-size: 20px;
+  font-size: 1.1rem;
 }
+.tech-icons img {
+  width: 40px;
+  height: 40px;
+  margin: 0 8px;
+  vertical-align: middle;
+  object-fit: contain;
+}
+
 
 @media only screen and (max-width: 500px) {
   .about h2 {
@@ -159,33 +182,46 @@
   /* font-size: 30px; */
   background-color: #ffffff;
   color: #000000;
-  font-size: 1.7rem;
+  font-size: 2.0rem;
   width: 75%;
-  padding: 35px;
+  padding: 10px;
   border-radius: 10px;
   box-shadow: rgba(0, 0, 0, 0.6)10px 10px 0px;
+  font-family: "Pixelify Sans", serif;
+  margin-left: 0;
+}
+
+.about h1{
+  font-size: 2.5rem;
+  color: var(--main-bg-color);
+  font-family: "Pixelify Sans", serif;
+  text-align: left;
+  width:75%;
+  margin-left: 0;
+}
+
+.about h3{
+  font-size: 1.8rem;
+  color: #585858;
+  margin-top: 10px;
   font-family: "Pixelify Sans", serif;
 }
 
 
 /*-------------SKILLS--------------------*/
-.skills-h {
-  padding: -20px;
+.skills-h{
+  text-align: left;
+  width:75%;
+  margin-left: 0;
   color: var(--main-bg-color);
   font-family: "Pixelify Sans", serif;
+  font-size: 2.5rem;
 }
 
 .prompt p {
   width: 100%;
   display: flex;
 }
-
-/* .item-skills {
-  border: 2px solid rgba(252, 227, 4, 0.2);
-  border-radius: 10px;
-  margin: 10px;
-  box-shadow: rgba(252, 227, 4, 0.2) 0px 0px 5px;
-} */
 
 .container {
   display: flex; /* or inline-flex */
@@ -339,4 +375,35 @@
   font-optical-sizing: auto;
   font-weight: 400;
   font-style: normal;
+}
+
+.tech-icon-wrapper {
+  position: relative;
+  display: inline-block;
+}
+
+.tech-tooltip {
+  visibility: hidden;
+  opacity: 0;
+  width: max-content;
+  background: #333;
+  color: #fff;
+  text-align: center;
+  border-radius: 6px;
+  padding: 4px 10px;
+  position: absolute;
+  z-index: 1;
+  bottom: 110%; /* Show above the icon */
+  left: 50%;
+  transform: translateX(-50%);
+  font-size: 0.9rem;
+  pointer-events: none;
+  transition: opacity 0.2s;
+  white-space: nowrap;
+}
+
+.tech-icon-wrapper:hover .tech-tooltip,
+.tech-icon-wrapper:focus-within .tech-tooltip {
+  visibility: visible;
+  opacity: 1;
 }
