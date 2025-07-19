@@ -12,15 +12,12 @@
   min-height: 60vh;
   color: #f0f0f0;
   margin: 50px auto;
-  background-color: #212329;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   padding: 20px;
   border-radius: 10px;
-  border: 5px solid #212329;
-  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
   box-sizing: border-box;
 }
 
@@ -52,6 +49,10 @@
   width: 100%;
   max-width: 1200px;
   box-sizing: border-box;
+  background-color: #212329;
+  border: 5px solid #212329;
+  border-radius: 10px;
+  padding: 20px;
 }
 
 .websio-container .container > div:first-child {
@@ -69,14 +70,14 @@
 .websio-container .container > div:last-child {
   display: flex;
   flex-direction: column; /* Stack children vertically */
-  align-items: center;    /* Center video and button horizontally */
+  align-items: center; /* Center video and button horizontally */
 }
 
 .websio-video {
   width: 100%;
-  max-width: 900px;         /* Increased from 400px to 700px */
+  max-width: 900px; /* Increased from 400px to 700px */
   border-radius: 10px;
-  box-shadow: 0 4px 10px rgba(0,0,0,0.15);
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
   object-fit: cover;
 }
 

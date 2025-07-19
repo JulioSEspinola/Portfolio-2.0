@@ -7,7 +7,7 @@ import Award from '@mui/icons-material/EmojiEvents';
 import Volunteer from '@mui/icons-material/VolunteerActivism';
 import '../styles/Experience.css';
 
-const isActive = false;
+const isActive = true;
 
 function Experience() {
   return (
