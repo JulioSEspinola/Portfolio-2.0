@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/Portfolio-2.0/static/css/main.02091242.css",
-    "main.js": "/Portfolio-2.0/static/js/main.10ecdee2.js",
+    "main.css": "/Portfolio-2.0/static/css/main.99bbf426.css",
+    "main.js": "/Portfolio-2.0/static/js/main.8a92e758.js",
     "static/media/websio_vid.mp4": "/Portfolio-2.0/static/media/websio_vid.914798f1d2aa00856f70.mp4",
     "static/media/crypto.png": "/Portfolio-2.0/static/media/crypto.ed904d8362d5376ef0ec.png",
     "static/media/websio_bckgrnd.png": "/Portfolio-2.0/static/media/websio_bckgrnd.90d1bd19d24b69381c08.png",
@@ -22,11 +22,11 @@
     "static/media/Docker.png": "/Portfolio-2.0/static/media/Docker.4e29864a43ac93d4f457.png",
     "static/media/React.png": "/Portfolio-2.0/static/media/React.98ff38735baa4c1b0381.png",
     "index.html": "/Portfolio-2.0/index.html",
-    "main.02091242.css.map": "/Portfolio-2.0/static/css/main.02091242.css.map",
-    "main.10ecdee2.js.map": "/Portfolio-2.0/static/js/main.10ecdee2.js.map"
+    "main.99bbf426.css.map": "/Portfolio-2.0/static/css/main.99bbf426.css.map",
+    "main.8a92e758.js.map": "/Portfolio-2.0/static/js/main.8a92e758.js.map"
   },
   "entrypoints": [
-    "static/css/main.02091242.css",
-    "static/js/main.10ecdee2.js"
+    "static/css/main.99bbf426.css",
+    "static/js/main.8a92e758.js"
   ]
 }
