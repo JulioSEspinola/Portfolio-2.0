@@ -12,7 +12,7 @@ export default function Footer() {
           <GithubIcont />
       </IconButton>
 
-      <IconButton href="https://www.linkedin.com/in/julio-steven-espinola-rodas-734902190/" target="_blank">
+      <IconButton href="https://www.linkedin.com/in/julio-steven-espinola-rodas/" target="_blank">
         <LinkedInIcon/>
       </IconButton>
       </div>
