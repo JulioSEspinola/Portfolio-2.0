@@ -40,7 +40,7 @@
   font-family: "Pixelify Sans", serif;
   font-size: 3rem;
   background-color: white;
-  color: var(--purple-color);
+  color: #b297f1;
   overflow: hidden; /* Ensures the content is not revealed until the animation */
   border-right: 0.15em solid var(--purple-color); /* The typewriter cursor */
   white-space: nowrap; /* Keeps the content on a single line */
@@ -180,7 +180,7 @@
 .about-me {
   /* font-size: 30px; */
   /* background-color: #ffffff; */
-  color: #000000;
+  color: #b297f1;
   font-size: 2.0rem;
   width: 75%;
   /* padding: 10px;
@@ -200,7 +200,7 @@
 
 .about h3{
   font-size: 1.8rem;
-  color: #585858;
+  color: #b297f1;
   margin-top: 10px;
   font-family: "Pixelify Sans", serif;
 }

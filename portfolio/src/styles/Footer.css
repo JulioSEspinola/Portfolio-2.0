@@ -1,7 +1,7 @@
 :root {
     --main-bg-color: #212329;
     --main-text-color: #f7dcc2;
-    --purple-color: #9d00ff;
+    --purple-color:#b297f1;
     --box-shadow-color: rgba(252, 227, 4, 0.2);
     --border-radius: 10px;
     --pixelate-font: "Pixelify Sans", serif;
@@ -16,13 +16,12 @@
     align-items: center;
     flex-direction: column;
     gap: 10px; 
-    box-shadow: rgba(145, 13, 248, 0.6) 0px 0px 10px;
     margin-top: auto;
     padding: 0px 0; /* Adjust padding for more breathing room */
   }
   
 .socialMedia svg {
-    color: var(--purple-color);
+    color: #b297f1;
     margin: 20px;
     font-size: 3rem;
     cursor: pointer;
