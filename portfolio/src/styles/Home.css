@@ -5,6 +5,7 @@
   --box-shadow-color: rgba(252, 227, 4, 0.2);
   --border-radius: 10px;
   --pixelate-font: "Pixelify Sans", serif;
+  --NTR-font: "NTR", sans-serif;
 }
 
 .home {
@@ -186,7 +187,7 @@
   /* padding: 10px;
   border-radius: 10px;
   box-shadow: rgba(0, 0, 0, 0.6)10px 10px 0px; */
-  font-family: "Pixelify Sans", serif;
+  font-family: "NTR", sans-serif;
   margin-left: 0;
 }
 
@@ -202,7 +203,7 @@
   font-size: 1.8rem;
   color: #b297f1;
   margin-top: 10px;
-  font-family: "Pixelify Sans", serif;
+  font-family: "NTR", sans-serif;
 }
 
 
@@ -221,21 +222,21 @@
 }
 
 .container {
+  width: 90%;
   display: flex; /* or inline-flex */
   justify-content: center;
   flex-wrap: wrap;
   margin: 10px;
   margin-bottom: 100px;
-  padding: 1vw 0vw 0px 10vw;
+  /* padding: 1vw 0vw 0px 10vw; */
 }
 
 .technologies {
   box-shadow: rgba(0, 0, 0, 0.6) 10px 10px 0px;
-  margin: 10px auto;
-  padding: 10px;
-  max-width: 20%;
+  margin: 20px auto;
+  padding: 1.5rem;
   background-color: #212329;
-  color: rgb(241, 227, 227);
+  /* color: rgb(241, 227, 227); */
   border-radius: 10px;
   font-family: "Pixelify Sans", serif;
 }

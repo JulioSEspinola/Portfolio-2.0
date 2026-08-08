@@ -5,19 +5,19 @@
     --box-shadow-color: rgba(252, 227, 4, 0.2);
     --border-radius: 10px;
     --pixelate-font: "Pixelify Sans", serif;
+    --NTR-font: "NTR", sans-serif;
   }
 
 .footer {
-    width: 100%;
-    /* min-height: 200px;  */
-    background: #000000;
+    width: 90%;
+    margin: 10px auto;
+    background: #212329;
     display: flex;
-    justify-content: center;
+    justify-content: space-around;
     align-items: center;
-    flex-direction: column;
-    gap: 10px; 
     margin-top: auto;
     padding: 0px 0; /* Adjust padding for more breathing room */
+    border-radius: var(--border-radius)
   }
   
 .socialMedia svg {

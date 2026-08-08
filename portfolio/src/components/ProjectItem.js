@@ -13,16 +13,15 @@ function ProjectItem({ image, name, id }) {
     <Card sx={{
       maxWidth: 500,
       margin:2,
-      padding:1,
-      color:"black",
-      backgroundColor:"white",
+      padding:1.5,
+      backgroundColor:"#212329",
       transition: 'transform 0.3s, box-shadow 0.3s',
       borderRadius: '10px',
-      boxShadow: '10px 10px 0px rgba(0, 0, 0, 0.6)',
-      border: '5px solid #333',
+      // boxShadow: '10px 10px 0px rgba(0, 0, 0, 0.6)',
+      border: '10px #212329',
       '&:hover': {
         transform: 'scale(1.01)',
-        boxShadow: '0px 0px 10px rgba(145, 13, 248, 0.6)',
+        boxShadow: '#b297f1',
       },
     }} onClick={() => navigate("/project/" + id)}>
       <CardActionArea>
@@ -33,7 +32,7 @@ function ProjectItem({ image, name, id }) {
           alt={name}
         />
         <CardContent>
-          <Typography gutterBottom variant="h4" component="div" sx={{ backgroundColor:"black", color:"white", fontFamily: '"Pixelify Sans", serif',}}>
+          <Typography gutterBottom variant="h4" component="div" sx={{ color:"#b297f1", fontFamily: ' "NTR", sans-serif, serif',}}>
             {name}
           </Typography>
         </CardContent>

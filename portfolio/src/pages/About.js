@@ -64,7 +64,7 @@ export default function About() {
           </div>
 
           <div className="technologies">
-            <h5> Back End</h5>
+            <h5> /Back End</h5>
             <span className="tech-icons">
               {backendTech.map((tech) => (
                 <span className="tech-icon-wrapper" key={tech.name}>
@@ -81,7 +81,7 @@ export default function About() {
           </div>
 
           <div className="technologies">
-            <h5> Tools</h5>
+            <h5> /Tools</h5>
             <span className="tech-icons">
               {tools.map((tech) => (
                 <span className="tech-icon-wrapper" key={tech.name}>
@@ -98,7 +98,7 @@ export default function About() {
           </div>
 
           <div className="technologies">
-            <h5> Infrastructure</h5>
+            <h5> /Infra</h5>
             <span className="tech-icons">
               {infrastructureTech.map((tech) => (
                 <span className="tech-icon-wrapper" key={tech.name}>
