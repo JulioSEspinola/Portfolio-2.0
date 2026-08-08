@@ -115,12 +115,12 @@ export default function About() {
           </div>
         </div>
       </div>
-      <div>
+      {/* <div>
         <Websio></Websio>
-      </div>
-      <div className="contact-home">
+      </div> */}
+      {/* <div className="contact-home">
         <Contact></Contact>
-      </div>
+      </div> */}
     </>
   );
 }

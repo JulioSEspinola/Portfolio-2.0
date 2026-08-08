@@ -25,7 +25,6 @@
   align-items: center;
   text-align: center;
   color: var(--main-text-color);
-  padding: 2vw 2vw 0 2vw;
   box-sizing: border-box;
   margin-bottom: 100px;
   margin-top: 100px;
@@ -100,7 +99,7 @@
   justify-content: center;
   flex-direction: column;
   align-items: center;
-  background-color: #F5EEDD;
+  /* background-color: #F5EEDD; */
 }
 /* .skills h1 {
   font-family: "Pixelify Sans", serif;
@@ -180,24 +179,23 @@
 /*-------------ABOUT ME--------------------*/
 .about-me {
   /* font-size: 30px; */
-  background-color: #ffffff;
+  /* background-color: #ffffff; */
   color: #000000;
   font-size: 2.0rem;
   width: 75%;
-  padding: 10px;
+  /* padding: 10px;
   border-radius: 10px;
-  box-shadow: rgba(0, 0, 0, 0.6)10px 10px 0px;
+  box-shadow: rgba(0, 0, 0, 0.6)10px 10px 0px; */
   font-family: "Pixelify Sans", serif;
   margin-left: 0;
 }
 
 .about h1{
-  font-size: 2.5rem;
-  color: var(--main-bg-color);
-  font-family: "Pixelify Sans", serif;
-  text-align: left;
-  width:75%;
-  margin-left: 0;
+    text-align: left;
+    width: 75%;
+    margin-left: 0;
+    font-family: "Pixelify Sans", serif;
+    font-size: 2.5rem;
 }
 
 .about h3{
@@ -213,7 +211,6 @@
   text-align: left;
   width:75%;
   margin-left: 0;
-  color: var(--main-bg-color);
   font-family: "Pixelify Sans", serif;
   font-size: 2.5rem;
 }
@@ -229,6 +226,7 @@
   flex-wrap: wrap;
   margin: 10px;
   margin-bottom: 100px;
+  padding: 1vw 0vw 0px 10vw;
 }
 
 .technologies {
@@ -236,8 +234,8 @@
   margin: 10px auto;
   padding: 10px;
   max-width: 20%;
-  background-color: #ffffff;
-  color: black;
+  background-color: #212329;
+  color: rgb(241, 227, 227);
   border-radius: 10px;
   font-family: "Pixelify Sans", serif;
 }
