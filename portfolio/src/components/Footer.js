@@ -8,7 +8,7 @@ import '../styles/Footer.css';
 export default function Footer() {
   return (
     <div className='footer'>
-      <p>&copy; 2023 Julio Espinola </p>
+      <p>&copy; 2026 Julio Espinola </p>
       <div className='socialMedia'>
       <IconButton href="https://github.com/JulioSEspinola" target="_blank">
           <GithubIcont />

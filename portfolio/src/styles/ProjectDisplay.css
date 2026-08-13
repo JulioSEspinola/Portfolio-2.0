@@ -5,6 +5,7 @@
   --box-shadow-color: rgba(252, 227, 4, 0.2);
   --border-radius: 10px;
   --pixelate-font: "Pixelify Sans", serif;
+  --NTR-font: "NTR", sans-serif;
 }
 
 .project {
@@ -37,7 +38,7 @@
 .project-display:hover {
   /* transform: scale(1.05); */
   animation: none;
-  box-shadow: 0 0 20px rgba(145, 13, 248, 0.6);
+  box-shadow: 0 0 20px #b297f1;
 }
 
 .project h1 {
@@ -62,7 +63,7 @@
   color: #000000;
   margin-top: 50px;
   width: 75%;
-  font-family: var(--pixelate-font);
+  font-family: var( --NTR-font);
 }
 
 .project svg {
