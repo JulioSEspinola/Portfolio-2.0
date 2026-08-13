@@ -17,11 +17,11 @@ function ProjectItem({ image, name, id }) {
       backgroundColor:"#212329",
       transition: 'transform 0.3s, box-shadow 0.3s',
       borderRadius: '10px',
-      // boxShadow: '10px 10px 0px rgba(0, 0, 0, 0.6)',
+      boxShadow: '10px 10px 0px rgba(0, 0, 0, 0.6)',
       border: '10px #212329',
       '&:hover': {
         transform: 'scale(1.01)',
-        boxShadow: '#b297f1',
+        boxShadow: '10px 10px 0px #b297f1',
       },
     }} onClick={() => navigate("/project/" + id)}>
       <CardActionArea>

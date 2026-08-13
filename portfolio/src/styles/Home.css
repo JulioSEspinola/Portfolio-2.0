@@ -223,12 +223,11 @@
 
 .container {
   width: 90%;
-  display: flex; /* or inline-flex */
+  display: flex;
   justify-content: center;
   flex-wrap: wrap;
   margin: 10px;
   margin-bottom: 100px;
-  /* padding: 1vw 0vw 0px 10vw; */
 }
 
 .technologies {
@@ -236,13 +235,13 @@
   margin: 20px auto;
   padding: 1.5rem;
   background-color: #212329;
-  /* color: rgb(241, 227, 227); */
   border-radius: 10px;
   font-family: "Pixelify Sans", serif;
+  color: white;
 }
 
 .technologies:hover {
-  box-shadow: rgba(145, 13, 248, 0.6) 3px 3px 0px;
+  box-shadow: #b297f1 3px 3px 0px;
   transform: translateX(5px);
   transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
