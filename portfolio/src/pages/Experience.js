@@ -3,8 +3,8 @@ import { VerticalTimeline, VerticalTimelineElement } from "react-vertical-timeli
 import "react-vertical-timeline-component/style.min.css";
 import SchoolIcon from '@mui/icons-material/School';
 import WorkIcon from '@mui/icons-material/Work';
-import Award from '@mui/icons-material/EmojiEvents';
-import Volunteer from '@mui/icons-material/VolunteerActivism';
+// import Award from '@mui/icons-material/EmojiEvents';
+// import Volunteer from '@mui/icons-material/VolunteerActivism';
 import '../styles/Experience.css';
 
 const isActive = true;

@@ -38,10 +38,10 @@ function home() {
             creating innovative solutions and a strong foundation in both
             front-end and back-end technologies. I enjoy working on projects
             that challenge me to think critically and creatively, and I'm always
-            eager to learn new skills and improve my craft. Recently, I've been
-            gaining an interest on networking and I've been diving into setting
-            up local networks as a hobbi. I will be adding some projects that
-            I've been working on soon! make sure to check them out
+            eager to learn new skills and improve my craft. Recently, I've
+            become interested in networking and have been diving into setting up
+            local networks as a hobby. I'll be adding some projects that I've
+            been working on soon, so make sure to check them out!
           </p>
         </div>
         <About />
